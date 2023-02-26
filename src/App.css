@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background-color:#6ca1bf;
+}
+.container {
+  position: relative;
+}
+h1 {
+  position: absolute;
+  top: 5%;
+  left: 22%;
+  color: #fde2bf;
+  font-size: 45px; 
+  font-family: 'Gloock', serif;
+}
+.imageOne {
+  margin: 0;
+  width: 100%;
+}
+
+input {
+  position: absolute;
+  top: 25%;
+  left: 18%;
+  font-family: 'Gloock', serif;
+  width: 25%;
+  padding: 5px;
+  background-color: #fde2bf;
+  border: none;
+}
+.Add {
+  position: absolute;
+  top: 32%;
+  left: 22%;
+  width: 15%;
+  padding: 8px;
+  font-family: 'Gloock', serif;
+  background-color: #d03626;
+  color: #fde2bf;
+  border: none;
+  font-size: 18px;
+}
+.Delete {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  width: 15%;
+  padding: 8px;
+  font-family: 'Gloock', serif;
+  background-color: #4b6100;
+  color: #fde2bf;
+  border: none;
+  font-size: 18px;
+}
+ul {
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  padding: 5px;
+}
+li {
+  list-style: none;
+  color: #fde2bf;
+  font-family: 'Gloock', serif;
+  padding: 5px;
+}
+.cross {
+  text-decoration: line-through 2px red;
+
+}
+
+@media all and (max-width:800px) {
+  h1 {
+    top: 65%;
+    left: 12%;
+    font-size: 25px; 
+  }
+  input {
+    top: 100%;
+    left: 5%;
+    width: 45%;
+  }
+  .Add {
+    top: 130%;
+    left: 18%;
+    width: 25%;
+    color: #fde2bf;
+    font-size: 13px;
+  }
+  .Delete {
+    top: 155%;
+    left: 18%;
+    width: 25%;
+    font-size: 13px;
+  }
+  ul {
+    position: absolute;
+    top: 185%;
+    left: 5%;
+  }
+  .icon {
+    width: 30px;
+  }
+}
